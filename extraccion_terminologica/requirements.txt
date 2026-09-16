@@ -1,5 +1,5 @@
 streamlit
-spacy==3.7.5
+spacy
 pdfplumber
 python-docx
 pandas
