@@ -1,4 +1,5 @@
 streamlit
+numpy<2
 spacy==3.7.5
 pdfplumber
 python-docx
