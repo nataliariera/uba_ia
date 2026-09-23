@@ -106,7 +106,7 @@ def extraer_candidatos(
 
 
 def df_a_csv_bytes(df: pd.DataFrame) -> bytes:
-    return df.to_csv(index=False, encoding="utf-8-sig").encode("utf-8-sig")
+    return df.to_csv(index=False, sep=";").encode("utf-8-sig")
 
 
 # ---------------------------------------------------------------------------
